@@ -1,7 +1,14 @@
 <template>
+  <Header />
+  <hr />
   <router-view />
+  <hr />
+  <Footer />
 </template>
-
+<script setup>
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

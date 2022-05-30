@@ -13,10 +13,10 @@
           </form>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <router-link to="/" class="nav-link">Home</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">News</a>
+              <router-link to="/pages" class="nav-link">News</router-link>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Forex</a>
