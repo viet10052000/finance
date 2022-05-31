@@ -32,121 +32,121 @@
       <div class="col-4">
         <div class="col-12">
           <h5 style="font-weight: bold; font-size: 30px" class="text-start">
-            Most Searched
-          </h5>
-          <hr />
-          <table class="table table-hover">
-            <thead>
-              <tr>
-                <th>Currencies</th>
-                <th>Exchange Rate</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>USD/JPY</td>
-                <td>128.078</td>
-              </tr>
-              <tr>
-                <td>USD/VND</td>
-                <td>128.078</td>
-              </tr>
-              <tr>
-                <td>USD/EUR</td>
-                <td>128.078</td>
-              </tr>
-              <tr>
-                <td>USD/SGP</td>
-                <td>128.078</td>
-              </tr>
-              <tr>
-                <td>USD/LAO</td>
-                <td>128.078</td>
-              </tr>
-              <tr>
-                <td>USD/CHINA</td>
-                <td>128.078</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="col-12">
-          <h5 style="font-weight: bold; font-size: 30px" class="text-start">
-            Currencies
+            <router-link to="/currency" style="text-decoration: none;color: black">Currencies</router-link>
           </h5>
           <hr />
           <table class="table table-hover">
             <thead>
               <tr>
                 <th>Currency</th>
-                <th>Exchange Rate</th>
+                <th>Change</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>USD/JPY</td>
-                <td>128.078</td>
+                <td style="color: #2ecc71;cursor: pointer;font-weight: bold">+0.01%</td>
               </tr>
               <tr>
-                <td>USD/VND</td>
-                <td>128.078</td>
+                <td>GBP/USD</td>
+                <td style="color: red;cursor: pointer;font-weight: bold">-0.01%</td>
               </tr>
               <tr>
                 <td>USD/EUR</td>
-                <td>128.078</td>
+                <td style="color: red;cursor: pointer;font-weight: bold">-0.01%</td>
               </tr>
               <tr>
-                <td>USD/SGP</td>
-                <td>128.078</td>
+                <td>AUD/USD</td>
+                <td style="color: red;cursor: pointer;font-weight: bold">-0.00%</td>
               </tr>
               <tr>
-                <td>USD/LAO</td>
-                <td>128.078</td>
+                <td>CAD/JPY</td>
+                <td style="color: #2ecc71;cursor: pointer;font-weight: bold">+0.01%</td>
               </tr>
               <tr>
-                <td>USD/CHINA</td>
-                <td>128.078</td>
+                <td>CHF/JPY</td>
+                <td style="color: #2ecc71;cursor: pointer;font-weight: bold">+0.01%</td>
               </tr>
             </tbody>
           </table>
         </div>
         <div class="col-12">
           <h5 style="font-weight: bold; font-size: 30px" class="text-start">
-            Cryptocurrency
+            <router-link to="/cryptocurrency" style="text-decoration: none;color: black">Cryptocurrency</router-link>
           </h5>
           <hr />
           <table class="table table-hover">
             <thead>
               <tr>
                 <th>Cryptocurrency</th>
-                <th>Exchange Rate</th>
+                <th>Change</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>USD/JPY</td>
-                <td>128.078</td>
+                <td>TTT</td>
+                <td style="color: red;cursor: pointer;font-weight: bold">-0.01%</td>
               </tr>
               <tr>
-                <td>USD/VND</td>
-                <td>128.078</td>
+                <td>VBNB</td>
+                <td style="color: red;cursor: pointer;font-weight: bold">-0.51%</td>
               </tr>
               <tr>
-                <td>USD/EUR</td>
-                <td>128.078</td>
+                <td>CHESS</td>
+                <td style="color: red;cursor: pointer;font-weight: bold">-5.30%</td>
               </tr>
               <tr>
-                <td>USD/SGP</td>
-                <td>128.078</td>
+                <td>HNT</td>
+                <td style="color: #2ecc71;cursor: pointer;font-weight: bold">+7.20%</td>
               </tr>
               <tr>
-                <td>USD/LAO</td>
-                <td>128.078</td>
+                <td>BHD</td>
+                <td style="color: #2ecc71;cursor: pointer;font-weight: bold">+9.66%</td>
               </tr>
               <tr>
-                <td>USD/CHINA</td>
-                <td>128.078</td>
+                <td>DAI</td>
+                <td style="color: #2ecc71;cursor: pointer;font-weight: bold">+0.02%</td>
               </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-12">
+          <h5 style="font-weight: bold; font-size: 30px" class="text-start">
+            Most Searched
+          </h5>
+          <hr />
+          <table class="table table-hover">
+            <thead>
+            <tr>
+              <th>Currencies</th>
+              <th>Exchange Rate</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>USD/JPY</td>
+              <td>128.078</td>
+            </tr>
+            <tr>
+              <td>USD/VND</td>
+              <td>128.078</td>
+            </tr>
+            <tr>
+              <td>USD/EUR</td>
+              <td>128.078</td>
+            </tr>
+            <tr>
+              <td>USD/SGP</td>
+              <td>128.078</td>
+            </tr>
+            <tr>
+              <td>USD/LAO</td>
+              <td>128.078</td>
+            </tr>
+            <tr>
+              <td>USD/CHINA</td>
+              <td>128.078</td>
+            </tr>
             </tbody>
           </table>
         </div>
