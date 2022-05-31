@@ -26,12 +26,12 @@
     <div class="row">
       <div class="col-2 d-flex" v-for="(item, index) in data" :key="index">
         <div class="left ms-4" style="font-weight: bold">
-          <div class="d-flex">
+          <router-link to="/summary" class="d-flex" style="text-decoration: none;color: black;cursor: pointer">
             <div class="symbol" style="margin: 0.25rem">
               {{ item["01. symbol"] }}
             </div>
             <div class="price">{{ item["05. price"] }}</div>
-          </div>
+          </router-link>
           <div class="change" style="color: #2ecc71; font-weight: bold">
             {{ item["9. change"] }}({{ item["10. change percent"] }})
           </div>

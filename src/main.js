@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import "bootstrap/dist/css/bootstrap.min.css"
+import 'bootstrap/dist/js/bootstrap.bundle';
 import "bootstrap"
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";

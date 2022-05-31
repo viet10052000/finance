@@ -3,8 +3,8 @@ import HomeView from '../views/HomeView.vue'
 import PageView from '../views/Page.vue'
 import PageDetail from '../views/PageDetail'
 import Currency from '../views/Currency.vue'
-import Sumary from '../views/Sumary.vue'
-import BarChartLine from '../components/BarChartLine.vue'
+import Summary from '../views/Sumary.vue'
+import CryptoCurrency from '../views/CryptoCurrency'
 const routes = [
   {
     path: '/',
@@ -22,9 +22,9 @@ const routes = [
     component: PageDetail
   },
   {
-    path: '/sumary',
-    name: 'sumary',
-    component: Sumary
+    path: '/summary',
+    name: 'summary',
+    component: Summary
   },
   {
     path: '/currency',
@@ -32,11 +32,10 @@ const routes = [
     component: Currency
   },
   {
-    path: '/chart',
-    name: 'chart',
-    component: BarChartLine
+    path: '/cryptocurrency',
+    name: 'cryptocurrency',
+    component: CryptoCurrency
   },
-
 ]
 
 const router = createRouter({

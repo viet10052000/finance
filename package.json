@@ -11,6 +11,8 @@
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "@popperjs/core": "^2.11.5",
+    "@syncfusion/ej2-vue-charts": "^20.1.57",
     "axios": "^0.27.2",
     "bootstrap": "^5.1.3",
     "chart.js": "^3.8.0",
