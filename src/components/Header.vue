@@ -19,7 +19,7 @@
               <router-link to="/pages" class="nav-link">News</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Forex</a>
+              <router-link to="/currency" class="nav-link">Currency</router-link>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Finance</a>
