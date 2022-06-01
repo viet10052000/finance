@@ -5,6 +5,8 @@ import PageDetail from '../views/PageDetail'
 import Currency from '../views/Currency.vue'
 import Summary from '../views/Sumary.vue'
 import CryptoCurrency from '../views/CryptoCurrency'
+import Finance from '../views/Finance'
+import Binance from '../views/Binance'
 const routes = [
   {
     path: '/',
@@ -35,6 +37,16 @@ const routes = [
     path: '/cryptocurrency',
     name: 'cryptocurrency',
     component: CryptoCurrency
+  },
+  {
+    path: '/finance',
+    name: 'finance',
+    component: Finance
+  },
+  {
+    path: '/binance',
+    name: 'binance',
+    component: Binance
   },
 ]
 

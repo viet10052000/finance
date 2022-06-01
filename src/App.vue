@@ -19,7 +19,7 @@ onMounted(async () => {
   try {
     for (let i = 0; i < data3.length; i++) {
       const response = await axios.get(
-        `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${data3[i]}&apikey=AAU4YUX6JIL4WO32`
+        `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${data3[i]}&apikey=RKOQZUOJINQTMB2L`
       );
       let data1 = response.data["Global Quote"];
       data.value.push(data1);
