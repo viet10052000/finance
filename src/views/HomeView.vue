@@ -116,12 +116,6 @@
           </h5>
           <hr />
           <table class="table table-hover">
-            <thead>
-            <tr>
-              <th>Currencies</th>
-              <th>Exchange Rate</th>
-            </tr>
-            </thead>
             <tbody>
             <tr>
               <td>USD/JPY</td>
@@ -152,16 +146,10 @@
         </div>
         <div class="col-12">
           <h5 style="font-weight: bold; font-size: 30px" class="text-start">
-            Currency
+            Loser
           </h5>
           <hr />
           <table class="table table-hover">
-            <thead>
-              <tr>
-                <th>Currencies</th>
-                <th>Exchange Rate</th>
-              </tr>
-            </thead>
             <tbody>
               <tr>
                 <td>USD/JPY</td>

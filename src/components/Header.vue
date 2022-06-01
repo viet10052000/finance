@@ -22,10 +22,10 @@
               <router-link to="/currency" class="nav-link">Currency</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Finance</a>
+              <router-link to="/finance" class="nav-link">Finance</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <router-link to="/binance" class="nav-link">Binance</router-link>
             </li>
             <li class="nav-item mt-1 me-1">
               <button class="btn btn-sm btn-outline-secondary" type="submit">Login</button>

@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <div class="text-start" style="font-weight: bold;font-size: 35px;margin: 1rem;">World Currencies - Foreign Exchange Rates</div>
     <table class="table table-striped table-sort">
       <thead>
         <tr>

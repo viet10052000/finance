@@ -33,7 +33,7 @@
             <div class="price">{{ item["05. price"] }}</div>
           </router-link>
           <div class="change" style="color: #2ecc71; font-weight: bold">
-            {{ item["9. change"] }}({{ item["10. change percent"] }})
+            ({{ item["10. change percent"] }})
           </div>
         </div>
         <div class="right ms-4">
